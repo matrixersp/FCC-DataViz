@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+  color: #1b1b1b;
+  text-align: center;
+}
+
+.graph {
+  display: inline-block;
+  background-color: #fff;
+  padding: 40px 20px;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.graph #tooltip {
+  display: inline-block;
+  background-color: #ffeab1;
+  height: fit-content;
+  min-width: 180px;
+  padding: 10px 20px;
+  position: absolute;
+  opacity: 0;
+  text-align: left;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+svg g {
+  font-size: 14px;
+}
+
+svg .dot {
+  stroke: #333;
+}
+
+svg #legend .doping {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  fill: #69f;
+}
+
+svg #legend .no-doping {
+  width: 10px;
+  height: 10px;
+  background-color: #f96;
+}
