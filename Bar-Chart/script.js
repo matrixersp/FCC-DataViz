@@ -46,12 +46,12 @@ req.onload = () => {
     .attr('id', 'tooltip')
     .style('top', h / 1.2 + 'px');
 
-  drawXAxis(dataset, xScale);
-  drawYAxis(dataset, yScale);
+  drawXAxis(xScale);
+  drawYAxis(yScale);
   plot(dataset, xScale, yScale, tooltip);
 };
 
-function drawXAxis(dataset, xScale) {
+function drawXAxis(xScale) {
   const xAxis = d3.axisBottom(xScale).tickFormat(d3.format('d'));
 
   svg
@@ -61,7 +61,7 @@ function drawXAxis(dataset, xScale) {
     .call(xAxis);
 }
 
-function drawYAxis(dataset, yScale) {
+function drawYAxis(yScale) {
   const yAxis = d3.axisLeft(yScale);
 
   svg
