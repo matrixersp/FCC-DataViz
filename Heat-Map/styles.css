@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heat-map {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.heat-map #tooltip {
+  width: 150px;
+  height: 80px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+
+svg {
+  margin: 10px;
+}
+
+svg rect:hover {
+  stroke: #111;
+  stroke-width: 2;
+}
+
+svg .tick {
+  font-size: 15px;
+}
