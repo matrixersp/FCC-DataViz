@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+nav {
+  margin: 20px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1#title {
+  margin: 20px auto;
+  font-weight: 400;
+}
+
+h3#description {
+  margin: 20px auto 30px;
+  font-weight: 200;
+}
+
+svg {
+  display: block;
+}
+
+svg#treemap-diagram {
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 10px;
+}
+
+svg#legend {
+  margin: 30px auto 50px;
+  dominant-baseline: text-before-edge;
+}
+
+#tooltip {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  padding: 10px 15px;
+  background-color: #e5e5e5;
+  color: #222;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+}
