@@ -9,3 +9,5 @@
 3. [Visualize Data with a Heat Map](https://github.com/matrixersp/FCC-DataViz/tree/master/Heat-Map) | [codepen](https://codepen.io/matrixersp/pen/gEPvYm)
 
 4. [Visualize Data with a Choropleth Map](https://github.com/matrixersp/FCC-DataViz/tree/master/Choropleth-Map) | [codepen](https://codepen.io/matrixersp/pen/axEGMg)
+
+5. [Visualize Data with a Treemap Diagram](https://github.com/matrixersp/FCC-DataViz/tree/master/Treemap-Diagram) | [codepen](https://codepen.io/matrixersp/pen/pozNzPN)
